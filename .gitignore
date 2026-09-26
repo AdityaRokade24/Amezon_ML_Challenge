@@ -1,0 +1,21 @@
+# Large datasets and archives
+*.zip
+6ab10eb3b23ba_student_resource.zip
+6ab10eb3b23ba_student_resource/
+data/
+train/
+test/
+output/
+outputs/
+*.db
+
+# Python cache & logs
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+

@@ -1,0 +1,60 @@
+Country Code,Country Name,Address Format Structure,Example Layout,Key Fields
+US,United States,Recipient Name -> House Number + Street Name + Apt/Suite -> City + State Abbreviation + ZIP Code,"JOHN SMITH
+123 MAIN ST APT 4B
+NEW YORK NY 10001","Full Name, Street Address, City, State, ZIP Code"
+IN,India,Recipient/Company Name -> Flat/Plot/House No + Lane/Building Name + Landmark -> Road/Area Name -> City + State Name + PIN Code,"SHARMA ENTERPRISES
+PLOT NO 47 FLAT 3B GOKUL APTS
+MG ROAD CHENNAI
+TAMIL NADU 600002","Full Name, Flat/House No, Building/Lane Name, Road, Area, City, State, PIN Code"
+GB,United Kingdom,Recipient Name -> Flat/Unit Number (if any) + Building Name -> House Number + Street Name -> Locality/Village (optional) -> Town/City -> Postcode,"MR JOHN SMITH
+FLAT 2 ROYAL OAK HOUSE
+10 DOWNING STREET
+LONDON
+SW1A 2AA","Full Name, Flat No/Building, House No, Street, City, Postcode"
+DE,Germany,Recipient Name -> Street Name + House Number -> Postal Code + Town/City,"MAX MUSTERMANN
+HAUPTSTR 12
+10117 BERLIN","Full Name, Street Name, House Number, Postal Code, City"
+FR,France,Recipient Name -> Apartment/Floor/Building (if any) -> House Number + Street Name -> Postal Code + Town/City,"MME MARIE DUPONT
+APP 4 BATIMENT B
+15 RUE DE LA PAIX
+75001 PARIS","Full Name, Apt/Building, House Number, Street Name, Postal Code, City"
+JP,Japan,Recipient Name -> Postal Code -> Prefecture + City -> Town/District + Block-Building-Room,"TAROU YAMADA
+100-0001
+TOKYO CHIYODA-KU
+CHIYODA 1-1-1 ROPPONGI TOWER 401","Full Name, Postal Code, Prefecture, City, District/Chome, Block/Building/Room"
+CA,Canada,Recipient Name -> Unit/Apt Number + House Number + Street Name -> City + Province Abbreviation + Postal Code,"JANE DOE
+101-505 RUE PARC
+MONTREAL QC H2X 3P9","Full Name, Apartment/Unit, House Number, Street Name, City, Province, Postal Code"
+AU,Australia,Recipient Name -> Flat/Unit Number + House Number + Street Name -> Suburb/Town + State Abbreviation + Postcode,"EDWARD KELLY
+SUITE 3 456 GEORGE ST
+SYDNEY NSW 2000","Full Name, Flat/Suite, House Number, Street Name, Suburb/Town, State, Postcode"
+BR,Brazil,Recipient Name -> Street Name + House Number + Apt/Block -> Neighborhood/District -> City + State Abbreviation -> Postal Code (CEP),"CARLOS SILVA
+RUA AVANHANDAVA 123 APTO 41
+BELA VISTA
+SAO PAULO SP
+01306-001","Full Name, Street Name, House Number, Apt/Block, Neighborhood, City, State, CEP"
+MX,Mexico,Recipient Name -> Street Name + House Number + Apt/Suite -> Neighborhood (Colonia) -> Postal Code + City + State Abbreviation,"JUAN PEREZ
+AV INSURGENTES SUR 1234 INT 5
+COLONIA DEL VALLE
+03100 CUIDAD DE MEXICO DF","Full Name, Street Name, House Number, Interior No, Colonia, Postal Code, City, State"
+AE,United Arab Emirates,Recipient Name -> Company Name (if any) -> Building/Villa Name or Number -> Street/Area Name -> P.O. Box Number -> Emirate City Name,"AHMED AL-MANSOORI
+BURJ KHALIFA FL 82
+DOWNTOWN DUBAI
+P.O. BOX 12345
+DUBAI","Full Name, Building/Villa, Street/Area, P.O. Box (Crucial for UAE), Emirate"
+SA,Saudi Arabia,Recipient Name -> Building Number + Street Name + District -> City + Postal Code + Additional Number,"MOHAMMED AL-QAHTANI
+8228 KING ABDULAZIZ RD AL MALAZ
+RIYADH 12836-3241","Full Name, Building Number, Street Name, District, City, Postal Code, Additional Code"
+IT,Italy,Recipient Name -> Street Name + House Number -> Postal Code (CAP) + City + Province Abbreviation,"MARIO ROSSI
+VIA ROMA 45
+00184 ROMA RM","Full Name, Street Name, House Number, CAP, City, Province"
+ES,Spain,Recipient Name -> Street Type + Street Name + House Number + Floor/Door -> Postal Code + Town/City + Province,"JUAN GARCIA
+CALLE MAYOR 12 3B
+28001 MADRID MADRID","Full Name, Street Type/Name, House Number, Floor/Door, Postal Code, City, Province"
+NL,Netherlands,Recipient Name -> Street Name + House Number + Building/Apt -> Postal Code + Town/City,"JAN DE VRIES
+KERKSTRAAT 88 A
+1012 GM AMSTERDAM","Full Name, Street Name, House Number, Extension, Postal Code, City"
+SG,Singapore,Recipient Name -> House/Block Number + Street Name -> Floor and Apartment Number -> Postal Code,"LEE MIN HO
+BLK 123 ANG MO KIO AVE 4
+#08-456
+SINGAPORE 560123","Full Name, Block Number, Street Name, Floor-Unit (#XX-XXX), Postal Code"
